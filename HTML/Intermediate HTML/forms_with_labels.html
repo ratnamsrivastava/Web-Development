@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms with Labels</title>
+</head>
+<body>
+	<!-- One way of writing (Nested form of using label tag, cannot be used inside a table layout) -->
+	<h1>LOGIN</h1>
+	<form action = "http://www.wikipedia.org">
+		<label>
+			Username:
+			<input name = "username" type="text" placeholder="username">
+		</label>
+		<label>
+			Password:
+			<input name = "password" type="password" placeholder="password">
+		</label>
+		<input type="submit">
+	</form>
+		<!-- Second way of writing (This one can be used in a table) -->
+	<h1>LOGIN</h1>
+	<form action = "http://www.wikipedia.org">
+		<label for="username">Username:</label>
+		<input id = "username" type="text" placeholder="username">
+		<label for = "password">Password:</label>
+		<input id = "password" type="password" placeholder="password">
+		<input type="submit">
+	</form>
+</body>
+</html>

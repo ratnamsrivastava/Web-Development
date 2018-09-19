@@ -1,0 +1,34 @@
+h4{
+	background: rgb(200,10,60);
+}
+
+h1{
+	background: PALEGOLDENROD
+}
+body{
+	background: url(https://s-i.huffpost.com/gen/1326478/images/o-RAINBOW-facebook.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+li{
+	border: 5px solid purple
+}
+
+h6{
+	border-color: green; 
+	border-style: dashed;
+	border-width: 2px;
+}
+
+h2{
+	background: AQUAMARINE
+}
+
+h3{
+	background: INDIANRED
+}
+
+h5{
+	background: GOLDENROD
+}

@@ -1,0 +1,50 @@
+/* Basic Selectors */
+
+/* Element Selector */
+li{
+
+}
+
+/* Class Selector */
+.hello{
+
+}
+
+/* id Selector */
+#name{
+
+}
+
+
+
+
+/* Advanced Selectors */
+
+/* Star Selector : This gets applied to every single element on the webpage*/
+*{
+	border: 1px solid lightgrey;
+}
+
+/* Descendant Selector :Takes two or more selectors and chains/combines them together; USED FREQUENTLY*/
+li a{
+	color: red;
+}
+
+/* Adjacent Selector :'plus' helps selecting the tag that is at the same level as the previous one (in this case ul is at the same level as h4; therefore they are siblings*/
+h4 + ul{
+	border: 4px solid red;
+}
+
+/* Attribute Selector : Selects elements based on any attribute; In the example given below we select 'href' attribute specifically having link to Google.com and changing its color*/
+a[href="http://www.google.com"] {
+	background: yellow;
+}
+
+/* nth of type Selector: changes the style of the mentioned nth tag; In the example given below we change the background of the last ul */
+ul:nth-of-type(3) {
+	background: purple;
+}
+
+li:nth-of-type(even) {
+	background: green;
+}

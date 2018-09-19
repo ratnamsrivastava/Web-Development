@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdowns and Radio buttons</title>
+</head>
+<body>
+<p>Do you prefer Cats or Dogs?</p>
+<form>
+	<label for="cats">CATS:</label>
+	<input name="petChoice" id="cats" type="radio" value="CATS">
+
+	<label for="dogs">DOGS:</label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+	<p>What color is your CAT/DOG?</p>
+		<select name="color">
+			<option>RED</option>
+			<option>BROWN</option>
+			<option>YELLOW</option>
+		</select>
+
+	<p>What is your current mood?</p>
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+	<p>Write something about yourself.</p>
+
+	<textarea name="basicInfo" rows="10" cols="30"></textarea>
+
+	<p>I agree to the terms and conditions
+		<input type = "checkbox" required>
+	</p>
+	<button>Go!</button>
+</form>
+</body>
+</html>

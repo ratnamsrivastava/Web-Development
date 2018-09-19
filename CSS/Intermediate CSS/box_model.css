@@ -1,0 +1,65 @@
+h1{
+	font-size: 50px;
+}
+
+body{
+	background-color: yellow;
+}
+
+h1{
+	font-family: Knewave;
+}
+
+p{
+	font-family: Gaegu;
+}
+
+/* BOX MODEL STUFF*/
+
+p{
+/* Content - Width and Height*/
+
+/* Border */
+
+border: 2px solid cadetblue;
+
+/* Padding */
+
+padding: 20px;
+
+/* Margin */
+}
+
+h1{
+/* Content - Width and Height*/
+
+width: 250px;
+
+/* Border */
+
+border: 2px solid red;
+
+/* Padding */
+
+padding: 10px;
+padding-left: 15px;
+
+/* Margin */
+
+margin: 10px; 
+
+}
+
+.hello {
+/* Content - Width and Height*/
+
+width: 200px;
+
+/* Border */
+
+border: 2px solid red;
+
+/* Padding */
+
+/* Margin */
+}

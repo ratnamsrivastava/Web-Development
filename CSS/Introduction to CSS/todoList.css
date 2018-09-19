@@ -1,0 +1,11 @@
+body{
+	background: CADETBLUE
+}
+
+#special{
+	border: 2px dashed orange;
+}
+
+.completed{
+	text-decoration: line-through;
+}

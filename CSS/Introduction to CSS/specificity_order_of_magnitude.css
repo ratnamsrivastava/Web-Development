@@ -1,0 +1,36 @@
+/* Type Selectors: LEAST MAGNITUDE */
+ li{
+
+ }
+
+ li a {
+
+ }
+
+ li + a {
+
+ }
+
+
+ /* Class, Attribute, and Pseudo-Class Selectors: MAGNITUDE GREATER THAN TYPE SELECTORS */
+
+ /* class Selector */
+ .hello {
+
+ }
+
+/* Attribute Selector */
+input[type="text"] {
+
+}
+
+/* Pseudo-Class Selector */
+a:hover
+input:checked
+
+
+
+/* ID Selectors: GREATEST MAGNITUDE */
+#hello {
+	
+}
